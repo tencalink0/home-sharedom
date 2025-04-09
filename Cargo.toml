@@ -7,6 +7,8 @@ edition = "2024"
 axum = "0.7"
 tokio = { version = "1", features = ["full"] }
 tower = "0.4"
+#bluez-async = "0.8"
+eyre = "0.6.12"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tracing = "0.1"
